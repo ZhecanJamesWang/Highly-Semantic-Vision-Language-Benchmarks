@@ -62,6 +62,13 @@ It claims to overcome the shortcomings of VQA V1 which has a biased distribution
 #### c. Cons ####
 Due to the low-level semantic focus of scene graphs in Visual Genome and limited vocabularies, the questions in GQA are also limited in low-level semantics. The questions focus mostly on attributes, spacial relationships as described in scene graphs. The answer length is also very short due to limited vocabularies in scene graphs.
 
+[Paper Link](https://arxiv.org/pdf/1902.09506.pdf)
+
+![VCR!](gqa.jpg "VCR")
+![VCR!](gqa2.jpg "VCR_TYPE")
+![VCR!](gqa3.jpg "VCR_TYPE")
+![VCR!](gqa4.jpg "VCR_TYPE")
+
 ## 4. CLEVER ##
 ### a. Description ### 
 ### b. Pros ###
