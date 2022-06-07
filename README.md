@@ -22,19 +22,19 @@ It has mainly two types of evaluation metrics, open-ended and multiple-choice. T
 It is the most recognizable Visual Question Answering benchmark. Most of its images are from COCO Captions which are real images. It also includes abstract images which are cartoon images. Its question types are differentiated via starting words of the questions like How many xx?", "What colorxxx?", etc. It has a more diverse set of evaluation metrics, open-ended and multiple-choice which make it possible to evaluate generation models. 
 
 ### c. Cons ### 
-The questions are mostly semantically low-level thus 
+The questions are mostly semantically low-level thus it cannot be able to evaluate highly-semantic visual commonsense understanding. Since its question types are separated by starting words of the questions, past works have pointed out that models can learn strong language prior between question types and answer distributions. This bias may be mostly severe when the frequency of answer classes is not balanced, e.g. "What color is xxx?" oftens happen with "White", etc. (refer to paper about VQA-CP, VQA-CE, etc.)
 
 [Paper Link](https://arxiv.org/pdf/1612.00837.pdf)
 [Paper Link](https://arxiv.org/pdf/1505.00468.pdf)
 
 
-## 2. VQA ##
+## 2. OK-VQA ##
 ### a. Description ### 
 ### b. Pros ### 
 ### c. Cons ### 
 [Paper Link](https://arxiv.org/pdf/1811.10830.pdf)
 
-OK-VQA
+
 GQA
 CLEVER
 
