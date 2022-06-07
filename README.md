@@ -34,8 +34,6 @@ The questions are mostly semantically low-level thus it cannot be able to evalua
 ![VCR!](vqa.jpg "VCR")
 ![VCR!](vqa2.jpg "VCR_TYPE")
 
-GQA
-
 ## 2. OK-VQA ##
 ### a. Description ### 
 OK-VQA is a dataset for visual question answering that requires methods which can draw upon outside knowledge to answer questions. It has 14,055 open-ended questions and 5 ground truth answers per question. Its images come from a subset of COCO images. Its questions are categorized into 10 different knowledge categories that each requies.
@@ -52,34 +50,42 @@ Its number of images and questions are very limited comparing with other VL data
 ![VCR!](okvqa2.jpg "VCR_TYPE")
 ![VCR!](okvqa3.jpg "VCR_TYPE")
 
-CLEVER
+## 3. GQA ##
+### a. Description ### 
+### b. Pros ###
+### c. Cons ### 
 
-Other QA
-Recipe QA
+## 4. CLEVER ##
+### a. Description ### 
+### b. Pros ###
+### c. Cons ### 
 
-Visual Spatial Reasoning
-IconQA
-Visual7W
+## Other QA ##
+### 1. Recipe QA ###
+### 2. MovieQA ###
+### 3. Visual Spatial Reasoning ###
+### 4. IconQA ###
+### 5. Visual7W ###
 
-Generation
-VisualCommet
+## Generation ##
+### 1. VisualCommet ###
 
-Language Grounding in Vision
-Violin
-Who’s Waldo
+## Language Grounding in Vision #
+### 1. Violin #
+### 2. Who’s Waldo #
 
-Other Classification
-SNLI-VE
-e-ViL
-Visual Genome
-VisDial (Visual Dialog)
-
-===========
-Composite
-VLUE
+## Other Classification ##
+### 1. SNLI-VE ### 
+### 2. e-ViL ###
+### 3. Visual Genome ###
+### 4. VisDial (Visual Dialog) ###
 
 
-Two Recommended References
+## Composite ##
+### 1. VLUE ### 
+
+
+## Two Recommended References ##
 https://github.com/sangminwoo/awesome-vision-and-language#dataset
 https://paperswithcode.com/datasets?task=visual-question-answering&page=2 
 
