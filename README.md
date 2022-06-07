@@ -124,6 +124,7 @@ It focuses mainly on the overall understanding of the image and may not evaluate
 
 [Paper Link](https://arxiv.org/pdf/1811.10582.pdf)
 ![VCR!](snlive.jpg "VCR")
+![VCR!](snlive1.jpg "VCR")
 ![VCR!](snlive2.jpg "VCR")
 ![VCR!](snlive3.jpg "VCR")
 
