@@ -69,16 +69,16 @@ Due to the low-level semantic focus of scene graphs in Visual Genome and limited
 ![VCR!](gqa3.jpg "VCR_TYPE")
 ![VCR!](gqa4.jpg "VCR_TYPE")
 
-## 4. CLEVER ##
-### a. Description ### 
+### 4. CLEVER ###
+#### a. Description ####
 CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning
 
 The authors claim to present a diagnostic dataset that tests a range of visual reasoning abilities. It contains minimal biases and has detailed annotations describing the kind of reasoning each question requires. Questions in CLEVR test various aspects of visual reasoning including attribute identification, counting, comparison, spatial relationships, and logical operations. Each question in CLEVR is represented both in natural language and as a functional program. The functional program representation allows for precise determination of the reasoning skills required to answer each question.
 
-### b. Pros ###
+#### b. Pros ####
 Similar to GQA, it has clear semantics graph for describing the reasoning behind the questions; Its questions and answers are also generated thus it has low manual cost.
 
-### c. Cons ### 
+#### c. Cons #### 
 Its images are all rendered non-real-world images and its questions are also around low-level spacial relationship and attributes. The answer length is also very short and thus resultings in limited distribution. 
 
 
@@ -104,6 +104,14 @@ Its images are all rendered non-real-world images and its questions are also aro
 
 ## Other Classification ##
 ### 1. SNLI-VE ### 
+#### a. Description ####
+SNLI-VE is the dataset proposed for the Visual Entailment (VE) task investigated in Visual Entailment Task for Visually-Grounded Language Learning
+#### b. Pros ####
+#### c. Cons ####
+[Paper Link](https://arxiv.org/pdf/1612.06890.pdf)
+![VCR!](clever.jpg "VCR")
+![VCR!](clever2.jpg "VCR")
+
 ### 2. e-ViL ###
 ### 3. Visual Genome ###
 ### 4. VisDial (Visual Dialog) ###
@@ -122,3 +130,10 @@ https://paperswithcode.com/datasets?task=visual-question-answering&page=2
 
 Visual Storytelling
 
+<!-- ### 1. SNLI-VE ### 
+#### a. Description ####
+#### b. Pros ####
+#### c. Cons ####
+[Paper Link](https://arxiv.org/pdf/1612.06890.pdf)
+![VCR!](clever.jpg "VCR")
+ -->
