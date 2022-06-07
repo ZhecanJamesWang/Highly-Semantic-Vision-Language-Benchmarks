@@ -116,9 +116,10 @@ Specifically, given an image as premise, and a natural language sentence as hypo
 
 #### b. Pros ####
 #### c. Cons ####
-[Paper Link](https://arxiv.org/pdf/1612.06890.pdf)
-![VCR!](clever.jpg "VCR")
-![VCR!](clever2.jpg "VCR")
+[Paper Link](https://arxiv.org/pdf/1811.10582.pdf)
+![VCR!](snlive.jpg "VCR")
+![VCR!](snlive2.jpg "VCR")
+![VCR!](snlive3.jpg "VCR")
 
 ### 2. e-ViL ###
 ### 3. Visual Genome ###
