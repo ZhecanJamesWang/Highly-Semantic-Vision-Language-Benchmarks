@@ -105,7 +105,15 @@ Its images are all rendered non-real-world images and its questions are also aro
 ## Other Classification ##
 ### 1. SNLI-VE ### 
 #### a. Description ####
-SNLI-VE is the dataset proposed for the Visual Entailment (VE) task investigated in Visual Entailment Task for Visually-Grounded Language Learning
+
+SNLI-VE is built on top of SNLI and Flickr30K. The problem that VE is trying to solve is to reason about the relationship between an image premise P_image and a text hypothesis H_text.
+
+Specifically, given an image as premise, and a natural language sentence as hypothesis, three labels (entailment, neutral and contradiction) are assigned based on the relationship conveyed by the (P_image, H_text)
+
+- entailment holds if there is enough evidence in P_image to conclude that H_text is true.
+- contradiction holds if there is enough evidence in P_image to conclude that H_text is false.
+- Otherwise, the relationship is neutral, implying the evidence in P_image is insufficient to draw a conclusion about H_text.
+
 #### b. Pros ####
 #### c. Cons ####
 [Paper Link](https://arxiv.org/pdf/1612.06890.pdf)
