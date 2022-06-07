@@ -34,14 +34,24 @@ The questions are mostly semantically low-level thus it cannot be able to evalua
 ![VCR!](vqa.jpg "VCR")
 ![VCR!](vqa2.jpg "VCR_TYPE")
 
+GQA
+
 ## 2. OK-VQA ##
 ### a. Description ### 
+OK-VQA is a dataset for visual question answering that requires methods which can draw upon outside knowledge to answer questions. It has 14,055 open-ended questions and 5 ground truth answers per question. Its images come from a subset of COCO images. Its questions are categorized into 10 different knowledge categories that each requies.
+
 ### b. Pros ### 
+It is manually filtered to ensure all questions require outside knowledge (e.g. from Wikipeida). 
+
 ### c. Cons ### 
+Its number of images and questions are very limited comparing with other VL dataset. Also, its average answer length is very short. It follows the same multiple choice evaluation metrics as in VQA but with limited correct answer pool(5 versus 10). It does not provide open-ended evaluation metrics thus it cannot evaluate generation models. 
+
 [Paper Link](https://arxiv.org/pdf/1811.10830.pdf)
 
+![VCR!](okvqa.jpg "VCR")
+![VCR!](okvqa2.jpg "VCR_TYPE")
+![VCR!](okvqa3.jpg "VCR_TYPE")
 
-GQA
 CLEVER
 
 Other QA
