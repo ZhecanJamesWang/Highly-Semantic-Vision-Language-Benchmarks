@@ -54,17 +54,13 @@ Its number of images and questions are very limited comparing with other VL data
 ### 3. GQA ###
 #### a. Description #### 
 
-The authVisual Genome scene graph structures to create 22M diverse reasoning questions, which all come with functional programs that represent their semantics.
-
-We use the programs to gain tight control over the answer distribution and present a new tunable smoothing technique to mitigate question biases.
-
-Question Answering on Image Scene Graphs. Each image comes with a scene graph of objects and relations. Each question comes with a structured representation of its semantics.
+The authors utilize Visual Genome scene graph structures via question generation engines to create 22M diverse reasoning questions, which all come with functional programs that represent their semantics. Since the questions are generated based on subject, object, attributes and relationships in scene graphs, the semantic focus of the questions are also around these nodes in scene graphs. Based on this generation pipeline from scene grpahs, the authors gain tight control over the answer distribution and present a new tunable smoothing technique to mitigate question biases. Each image comes with a scene graph of objects and relations. Each question comes with a structured representation of its semantics.
 
 #### b. Pros ####
-It claimed to overcome the shortcomings of VQA V1 which has a biased distribution of answers and questions. Since VQA V1 is curated basedd on human annotations thus it has limitations in terms of overall balancing of answer distribution and question types due to the high manual cost. On the other hand, question and answers in GQA are mostly generated via scene graph thus it has more power and is convenient to readjust answer and question distribition. 
+It claims to overcome the shortcomings of VQA V1 which has a biased distribution of answers and questions. Since VQA V1 is curated basedd on human annotations thus it has limitations in terms of overall balancing of answer distribution and question types due to the high manual cost. On the other hand, question and answers in GQA are mostly generated via scene graph thus it has more power and is convenient to readjust answer and question distribition. It inherits from VQA V1 to have both multiple-choice and open-ended evaluation metrics.
 
 #### c. Cons ####
-Due to the low-level semantic focus of scene graphs in Visual Genome and limited vocabularies, the questions in GQA are also limited in low-level semantics. The questions focus mostly on attributes, spacial relationships as described in scene graphs.
+Due to the low-level semantic focus of scene graphs in Visual Genome and limited vocabularies, the questions in GQA are also limited in low-level semantics. The questions focus mostly on attributes, spacial relationships as described in scene graphs. The answer length is also very short due to limited vocabularies in scene graphs.
 
 ## 4. CLEVER ##
 ### a. Description ### 
