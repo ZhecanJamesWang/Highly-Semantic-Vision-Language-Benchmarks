@@ -45,7 +45,7 @@ It is manually filtered to ensure all questions require outside knowledge (e.g. 
 #### c. Cons #### 
 Its number of images and questions are very limited comparing with other VL dataset. Also, its average answer length is very short. It follows the same multiple choice evaluation metrics as in VQA but with limited correct answer pool(5 versus 10). It does not provide open-ended evaluation metrics thus it cannot evaluate generation models. 
 
-[Paper Link](https://arxiv.org/pdf/1811.10830.pdf)
+[Paper Link](https://arxiv.org/pdf/1906.00067.pdf)
 
 ![VCR!](okvqa.jpg "VCR")
 ![VCR!](okvqa2.jpg "VCR_TYPE")
@@ -53,8 +53,18 @@ Its number of images and questions are very limited comparing with other VL data
 
 ### 3. GQA ###
 #### a. Description #### 
+
+The authVisual Genome scene graph structures to create 22M diverse reasoning questions, which all come with functional programs that represent their semantics.
+
+We use the programs to gain tight control over the answer distribution and present a new tunable smoothing technique to mitigate question biases.
+
+Question Answering on Image Scene Graphs. Each image comes with a scene graph of objects and relations. Each question comes with a structured representation of its semantics.
+
 #### b. Pros ####
+It claimed to overcome the shortcomings of VQA V1 which has a biased distribution of answers and questions. Since VQA V1 is curated basedd on human annotations thus it has limitations in terms of overall balancing of answer distribution and question types due to the high manual cost. On the other hand, question and answers in GQA are mostly generated via scene graph thus it has more power and is convenient to readjust answer and question distribition. 
+
 #### c. Cons ####
+Due to the low-level semantic focus of scene graphs in Visual Genome and limited vocabularies, the questions in GQA are also limited in low-level semantics. The questions focus mostly on attributes, spacial relationships as described in scene graphs.
 
 ## 4. CLEVER ##
 ### a. Description ### 
