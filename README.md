@@ -25,8 +25,14 @@ It is the most recognizable Visual Question Answering benchmark. Most of its ima
 The questions are mostly semantically low-level thus it cannot be able to evaluate highly-semantic visual commonsense understanding. Since its question types are separated by starting words of the questions, past works have pointed out that models can learn strong language prior between question types and answer distributions. This bias may be mostly severe when the frequency of answer classes is not balanced, e.g. "What color is xxx?" oftens happen with "White", etc. (refer to paper about VQA-CP, VQA-CE, etc.)
 
 [Paper Link](https://arxiv.org/pdf/1612.00837.pdf)
+
+[Paper Link](https://arxiv.org/pdf/1511.05099.pdf)
+
 [Paper Link](https://arxiv.org/pdf/1505.00468.pdf)
 
+
+![VCR!](vqa.jpg "VCR")
+![VCR!](vqa2.jpg "VCR_TYPE")
 
 ## 2. OK-VQA ##
 ### a. Description ### 
