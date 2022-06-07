@@ -128,6 +128,23 @@ It focuses mainly on the overall understanding of the image and may not evaluate
 ![VCR!](snlive3.jpg "VCR")
 
 ### 2. e-ViL ###
+#### a. Description ####
+e-ViL: A Dataset and Benchmark for Natural Language Explanations in Vision-Language Tasks
+
+It is essentially built by merging the explanations from e-SNLI and the image-sentence pairs from SNLI-VE. It also readjust the samples to make answer label distribution more balacned compared with SNLI-VE.
+
+#### b. Pros ####
+Similar to SNLI-VE. As it cliams its explanation is not like VCR which often requires external knowledge.
+
+#### c. Cons ####
+Similar to SNLI-VE
+
+[Paper Link](https://arxiv.org/pdf/1612.06890.pdf)
+![VCR!](evil.jpg "VCR")
+![VCR!](evil2.jpg "VCR")
+![VCR!](evil3.jpg "VCR")
+
+ 
 ### 3. Visual Genome ###
 ### 4. VisDial (Visual Dialog) ###
 
