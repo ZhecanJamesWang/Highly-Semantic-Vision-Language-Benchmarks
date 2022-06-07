@@ -114,8 +114,14 @@ Specifically, given an image as premise, and a natural language sentence as hypo
 - contradiction holds if there is enough evidence in P_image to conclude that H_text is false.
 - Otherwise, the relationship is neutral, implying the evidence in P_image is insufficient to draw a conclusion about H_text.
 
+Its text is based on the Stanford Natural Language Inference corpus and its images are from Flickr30k.
+
 #### b. Pros ####
+It differs from traditional Textual Entailment (TE) tasks like SNLI whereby a premise is defined by an image, rather than a natural language sentence as in TE tasks. It also evolve highly-semantic commonsense of the visual scenes to solve the task.
+
 #### c. Cons ####
+It focuses mainly on the overall understanding of the image and may not evaluate finegrained perceptions of the visual scenes e.g. spacial relationships. It also can only evaluate calssification VL models.
+
 [Paper Link](https://arxiv.org/pdf/1811.10582.pdf)
 ![VCR!](snlive.jpg "VCR")
 ![VCR!](snlive2.jpg "VCR")
