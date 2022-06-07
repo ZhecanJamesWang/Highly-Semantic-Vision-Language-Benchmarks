@@ -11,7 +11,7 @@ Since its images are from movies, lots of its questions require context from fra
 [Paper Link](https://arxiv.org/pdf/1811.10830.pdf)
 
 ![VCR!](VCR.jpg "VCR")
-![VCR!](VCR.jpg "VCR_TYPE")
+![VCR!](VCR_TYPE.jpg "VCR_TYPE")
 
 ## 2. VQA ##
 ### a. Description ### 
