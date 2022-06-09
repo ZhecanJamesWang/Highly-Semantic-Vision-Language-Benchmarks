@@ -175,6 +175,15 @@ Similar to SNLI-VE
 
  
 ### 3. Visual Genome ###
+#### a. Description ####
+Visual Genome is a dataset, a knowledge base, an ongoing effort to connect structured image concepts to language.
+
+#### b. Pros ####
+#### c. Cons ####
+[Paper Link](https://arxiv.org/pdf/1612.06890.pdf)
+![VCR!](clever.jpg "VCR")
+
+
 ### 4. VisDial (Visual Dialog) ###
 
 
