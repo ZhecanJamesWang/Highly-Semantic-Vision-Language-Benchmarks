@@ -97,6 +97,35 @@ Its images are all rendered non-real-world images and its questions are also aro
 
 ## Generation ##
 ### 1. VisualCommet ###
+#### a. Description ####
+Visual COMET: Visual Commonsense Reasoning in Time. 
+Reasoning about the Dynamic Context of a Still Image.
+
+It is built on top of validation set of VCR dataset. The authors propose VisualCOMET, the novel framework of visual commonsense reasoning tasks to predict events that might have happened before, events that might happen after, and the intents of the people at present. To support research toward visual commonsense reasoning, we introduce the first large-scale repository of Visual Commonsense Graphs that consists of over 1.4 million textual descriptions of visual commonsense inferences carefully annotated over a diverse set of 60,000 images. Each image is densely annotated with events at present, and the inferences are associated with each pair of event and image. In addition, we provide person-grounding  (i.e., co-reference links) between people appearing in the image and people mentioned in the textual commonsense descriptions.
+
+Dataset Overview
+- 60K Images with Place Information
+- 139K Events at Present
+- 2.3 Events per Image
+- 1.4 Million Total Inference Descriptions
+- 580K Before Inference Descriptions (4.3 per Event at Present)
+- 580K After Inference Descriptions (4.3 per Event at Present)
+- 295K Inferences on Intent (2.1 per Event at Present)
+
+Task:  Generate a set of commonsense inferences on 
+- events that could've happened before
+- events that can happen after
+- people's intents at present
+
+#### b. Pros ####
+VisualCOMET evolve temporal, intentional information of persons in VCR images. These information helps to mitigate the lack of context information in VCR sample data. The Visual Commonsense Graphs could potentially used for linking between low-level visual clues and high-level information.
+
+#### c. Cons ####
+Because the task is to generate a sequence of words thus precide evaluation is difficult. The paper follows the traditional method by using BLEU, CIDEr, METEOR scores. Those traditional scores may not fairly evaluate all potential predictions.
+
+[Paper Link](https://arxiv.org/abs/2004.10796)
+![VCR!](visualcommet.jpg "VCR")
+![VCR!](visualcommet2.jpg "VCR")
 
 ## Language Grounding in Vision #
 ### 1. Violin #
@@ -105,7 +134,6 @@ Its images are all rendered non-real-world images and its questions are also aro
 ## Other Classification ##
 ### 1. SNLI-VE ### 
 #### a. Description ####
-
 SNLI-VE is built on top of SNLI and Flickr30K. The problem that VE is trying to solve is to reason about the relationship between an image premise P_image and a text hypothesis H_text.
 
 Specifically, given an image as premise, and a natural language sentence as hypothesis, three labels (entailment, neutral and contradiction) are assigned based on the relationship conveyed by the (P_image, H_text)
